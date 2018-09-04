@@ -9,9 +9,21 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <properties>
+        <swagger.version>2.7.0</swagger.version>
+    </properties>
+
     <groupId>org.chen</groupId>
     <artifactId>user-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${swagger.version}</version>
+        </dependency>
+    </dependencies>
 
 
 </project>

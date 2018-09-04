@@ -13,6 +13,10 @@
     <artifactId>user-consumer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
+    <properties>
+        <swagger.version>2.7.0</swagger.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.chen</groupId>
@@ -23,6 +27,17 @@
             <groupId>org.chen</groupId>
             <artifactId>dubbo-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${swagger.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${swagger.version}</version>
         </dependency>
     </dependencies>
 
